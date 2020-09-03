@@ -1,0 +1,25 @@
+[2020-06-09 21:13:27 +0000] [5186] [INFO] Starting gunicorn 19.10.0
+[2020-06-09 21:13:27 +0000] [5186] [INFO] Listening at: http://0.0.0.0:8001 (5186)
+[2020-06-09 21:13:27 +0000] [5186] [INFO] Using worker: sync
+[2020-06-09 21:13:27 +0000] [5190] [INFO] Booting worker with pid: 5190
+[2020-06-09 21:13:27 +0000] [5190] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 586, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/server/transfer-learning-conv-ai/run.py", line 141
+SyntaxError: Non-ASCII character '\xeb' in file /home/ubuntu/server/transfer-learning-conv-ai/run.py on line 141, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[2020-06-09 21:13:27 +0000] [5190] [INFO] Worker exiting (pid: 5190)
+[2020-06-09 21:13:27 +0000] [5186] [INFO] Shutting down: Master
+[2020-06-09 21:13:27 +0000] [5186] [INFO] Reason: Worker failed to boot.
