@@ -4,7 +4,7 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 
 ## Demo
 ### Chat with Voice Recognition
-<img src="./image/main.gif"/>
+<img src="./image/main.gif" width="400x"/>
 
 ### Quiz
 <img src="./image/front-view.gif" />
