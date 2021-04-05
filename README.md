@@ -4,6 +4,9 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 
 ## Demo
 
+## Intro
+
+
 ## Project Process
 <img src="./image/project_process.png" />
 
@@ -16,11 +19,31 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 
 ## Models
 ### Conversational AI
+- Open AI GPT
+- Open AI GPT2
 
 ### AFL
 > AFL stands for Assessment For Learning. This word to refer to a way of evaluating users on an achievement basis, away from traditional learning evaluation methods.
 
-> Therefore, this project aims to score evaluations of users to continuously learn and motivate them.
+Therefore, the project aimed to score user evaluations for continuous learning and motivation using MRPC, CoLA dataset, and Spell Check API.
+
+- MRPC(Microsoft Research Paraphrase Corpus)
+- CoLA(Corpus of Linguistic Acceptability)
+- Bing Spell Check API 
+
+
+## Parameter Optimization
+
+| **Argument**                | **Default value** | **Modified Value** |                       **Description**                        |
+| :-------------------------- | ----------------- | ------------------ | :----------------------------------------------------------: |
+| Model                       | Open AI GPT       | **GPT2**           |                      Open AI GPT, GPT2                       |
+| Num_candidates              | 2                 | **6**              |              candidate group for Next Utterance              |
+| Max_history                 | 4                 | **2**              |       Number of previous utterances to keep in history       |
+| Gradient_accumulation_steps | 8                 | **4**              | Used to troubleshoot memory problems on GPU during Optimization |
+| Epochs                      | 1                 | **30**             |                       Number of Epochs                       |
+| Train_batch_size            | 4                 | **2**              |                   Batch size for training                    |
+| Valid_batch_size            | 4                 | **2**              |                  Batch size for validation                   |
+
 
 ## Evaluation
 <img src="./image/model.png" />
