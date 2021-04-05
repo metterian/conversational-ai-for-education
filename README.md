@@ -5,14 +5,14 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 ## Demo
 
 ## Project Process
-<img src="image/project_process.png" />
+<img src="./image/project_process.png" />
 
 ## Dataset
 ### ConvAI2 Data
-<img src="image/convai_dataset.png" />
+<img src="./image/convai_dataset.png" />
 
 ### Project Data
-<img src="image/dataset.png" />
+<img src="./image/dataset.png" />
 
 ## Models
 ### Conversational AI
@@ -23,6 +23,6 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 > Therefore, this project aims to score evaluations of users to continuously learn and motivate them.
 
 ## Evaluation
-<img src="image/model.png" />
+<img src="./image/model.png" />
 
 ## Reference
