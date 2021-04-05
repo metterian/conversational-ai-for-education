@@ -3,12 +3,15 @@
 beginners who want to learn English. I mainly used  [Hugging Face's](https://github.com/huggingface/transfer-learning-conv-ai) training code which used transfer Learning from an OpenAI GPT and GPT-2 Transformer language model.
 
 ## Demo
-### Chat with Voice Recog
+### Chat with Voice Recognition
+<img src="./image/main.gif"/>
+
 ### Quiz
 <img src="./image/front-view.gif" />
 
 ## Introduction
 - [Presentation Slide](https://drive.google.com/file/d/1aKTveAp5rdqOjbpVT-CFu0GioQ4GMEt1/view?usp=sharing)
+
 - Summary Paper [ [kor](https://drive.google.com/drive/u/0/folders/1y1SoWDfAhpzr551PpXJm3POBo7b3WKCb) | [eng](https://drive.google.com/file/d/105vMI1IkXChRjkYUAzhL9lGUbG5zzY4i/view?usp=sharing) ]
 
 
