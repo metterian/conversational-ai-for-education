@@ -6,6 +6,15 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 ### Chat with Voice Recognition
 <img src="./image/main.gif" width="400x"/>
 
+
+<br/>
+
+### AFL
+<img src="./image/AFL.gif" width="400x" />
+
+<br/>
+
+
 ### Quiz
 <img src="./image/front-view.gif" />
 
