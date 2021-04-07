@@ -3,9 +3,12 @@
 beginners who want to learn English. I mainly used  [Hugging Face's](https://github.com/huggingface/transfer-learning-conv-ai) training code which used transfer Learning from an OpenAI GPT and GPT-2 Transformer language model.
 
 ## Demo
-Full demo video : [click](https://youtu.be/wQf57Zkly0A)
+Full demo video : [ [link](https://youtu.be/wQf57Zkly0A) ]
 
 ### Chat with Voice Recognition
+#### Situation: Currency Exchange
+> You can see the result of 'Similarity' and 'Correct'. Similarity means whether you speak well according to the situation. Correct means how much you talk with grammar.
+
 <img src="./image/main.gif" width="400x"/>
 
 
@@ -65,6 +68,7 @@ Therefore, the project aimed to score user evaluations for continuous learning a
 
 
 ## Evaluation
+
 <img src="./image/model.png" />
 
 ## Reference
