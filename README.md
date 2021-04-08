@@ -3,7 +3,8 @@
 beginners who want to learn English. I mainly used  [Hugging Face's](https://github.com/huggingface/transfer-learning-conv-ai) training code which used transfer Learning from an OpenAI GPT and GPT-2 Transformer language model.
 
 ## Demo
-Full demo video : [ [link](https://youtu.be/wQf57Zkly0A) ]
+- Full demo video  [ [link](https://youtu.be/wQf57Zkly0A) ]
+- Final Report [ [link](./documents/최종 보고서.pdf)]
 
 ### Chat with Voice Recognition
 #### Situation: Currency Exchange
@@ -58,7 +59,9 @@ Therefore, the project aimed to score user evaluations for continuous learning a
 
 
 ## Fine-tuning
-AI data was used for Korean-English translation corpus for fine tuning. [ [link](https://aihub.or.kr/aidata/87) ]
+- AI Hub Korean-English translation corpus was used for fine tuning. [ [link](https://aihub.or.kr/aidata/87) ]
+- Plus, We add the situation data made by English text book.
+
 
 
 ## Parameter Optimization
