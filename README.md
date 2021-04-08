@@ -25,6 +25,7 @@ AFL can check Similarity and Correct.
 
 ### Quiz
 You can easily review the textbook by solving it.
+
 <img src="./image/front-view.gif" />
 
 ## Introduction
