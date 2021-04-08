@@ -7,7 +7,7 @@ Full demo video : [ [link](https://youtu.be/wQf57Zkly0A) ]
 
 ### Chat with Voice Recognition
 #### Situation: Currency Exchange
-> You can see the result of 'Similarity' and 'Correct'. Similarity means whether you speak well according to the situation. Correct means how much you talk with grammar.
+You can see the result of 'Similarity' and 'Correct'. Similarity means whether you speak well according to the situation. Correct means how much you talk with grammar.
 
 <img src="./image/main.gif" width="400x"/>
 
@@ -15,12 +15,15 @@ Full demo video : [ [link](https://youtu.be/wQf57Zkly0A) ]
 <br/>
 
 ### AFL
+AFL can check Similarity and Correct.
+
 <img src="./image/AFL.gif" width="400x" />
 
 <br/>
 
 
 ### Quiz
+You can easily review the textbook by solving it.
 <img src="./image/front-view.gif" />
 
 ## Introduction
@@ -49,9 +52,13 @@ Full demo video : [ [link](https://youtu.be/wQf57Zkly0A) ]
 
 Therefore, the project aimed to score user evaluations for continuous learning and motivation using MRPC, CoLA dataset, and Spell Check API.
 
-- MRPC(Microsoft Research Paraphrase Corpus)
-- CoLA(Corpus of Linguistic Acceptability)
+- MRPC (Microsoft Research Paraphrase Corpus)
+- CoLA (Corpus of Linguistic Acceptability)
 - Bing Spell Check API 
+
+
+## Fine-tuning
+AI data was used for Korean-English translation corpus for fine tuning. [ [link](https://aihub.or.kr/aidata/87) ]
 
 
 ## Parameter Optimization
