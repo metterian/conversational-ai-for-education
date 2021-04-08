@@ -4,11 +4,11 @@ beginners who want to learn English. I mainly used  [Hugging Face's](https://git
 
 ## Demo
 - Full demo video  [ [link](https://youtu.be/wQf57Zkly0A) ]
-- Final Report [ [link](./documents/최종 보고서.pdf)]
+- Final Report  [ [link](./documents/final_report.pdf) ]
 
 ### Chat with Voice Recognition
 #### Situation: Currency Exchange
-You can see the result of 'Similarity' and 'Correct'. Similarity means whether you speak well according to the situation. Correct means how much you talk with grammar.
+You can see the result of **Similarity** and **Correct**. Similarity means whether you speak well according to the situation. Correct means how much you talk with grammar.
 
 <img src="./image/main.gif" width="400x"/>
 
